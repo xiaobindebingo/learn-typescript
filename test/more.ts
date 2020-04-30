@@ -38,3 +38,8 @@ function getLength1(input:string|number):number{
     return <number>input;
     
 }// 如何返回number；强制转换成number；
+
+
+// 声明文件：
+declare var Jquery:(selector:string)=>any;
+Jquery('#foo');
